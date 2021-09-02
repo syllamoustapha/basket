@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>basket Sylla</title>
+</head>
+<body>
+    <div class="container">
+        <h2>BASKET</h2>
+        <div class="container--1">
+            
+            <div class="box">
+                <div class="box--bor">
+                    <div class="info">
+                        <table id="my table" cellspacing="10" cellpadding="5" class="table">
+                            <tr heigth="50%">
+                                <th width="200px">Nom de l'article </th>
+                                <th width="200px">Quantité</th>
+                                <th width="200px">Prix unitaire</th>
+                                <th width="200px" class="text-rigth">
+                                    <span id="sous-total" class="sous-total"> Sous total</span>
+                                </th>
+                            </tr heigth="100%">
+                            <td heigth="50%">
+                                <!-- *******************aricle1************************************************** -->
+                                <div class="produit-article">
+                                    <div class="img">
+                                        <img src="images/image1.jpg" alt="photo">
+                                        
+                                    </div>
+                                    <div class="elements">
+                                        <p>chémise</p>
+                                        <button class="supprimer" type="button" value="supprimer">supprimer</button>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </td>
+                            <td>
+                                <div class="button-container">
+                                    <button class="cart-moins" type="button" value="-">-</button>
+                                    <input type="tel" value="0" class="qty" min="1" required class="input" placeholder="0">
+                                    <button class="cart-plus" type="button" value="+">+</button>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <input type="text" value="2500" class="price-unitaire" disabled>
+                            </td>
+                            <td align="center" class="sout">
+
+                              <span id="sous-total" class="sous-totale">0</span> Fcfa
+
+                            </td>
+                            <!-- *********************article2****************************** -->
+                            <tr heigth=400px>
+                                <td heith="400px">
+                                    <div class="produit-article">
+                                        <div class="img">
+                                            <img src="images/image2.jpg" alt="photo">
+                                        </div>
+                                        <div class="elements">
+                                            <p>PC bag</p>
+                                            <button class="supprimer" type="button" value="supprimer">supprimer</button>
+                                        </div>
+                                        
+                                    </div>
+                                        
+                                </td>
+                                
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-moins" type="button" value="-">-</button>
+                                        <input type="text" name="quantité" min="0" class="qty" value="0"/>
+                                        <button class="cart-plus" type="button" value="+">+</button>
+                                        
+                                    </div>
+                                </td>
+                                <td>
+                                    <input align="center" type="text" value="1600" class="price-unitaire" disabled>
+                                </td>
+                                <td align="center" class="sout"><span id="sous-total" class="sous-totale">0</span>
+                                  Fcfa
+                                </td>
+                                
+                                
+                            </tr>
+                            
+                            <td>
+                                <input type="text" name="prix" class="prix-article">
+                            </td>
+                            <div class="button-ajout">
+                                <td align="center" colspan="2">
+                                    <button class="ajouter" tyoe="button" value="Ajouter un article">Ajouter un article</button>
+                                </td>
+                            </div>
+                            
+                           
+                            
+                        </table>
+                    
+                        
+
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="total1">
+            <h2 align="center" class="to">total: <span id="total" class="total">0</span>frcfa</h2>
+        </div>
+    </div>
+        
+   <script src="index.js"></script> 
+</body>
+</html>
